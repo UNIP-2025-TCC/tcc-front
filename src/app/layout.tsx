@@ -21,7 +21,7 @@ export default function LoginLayout({
             >
                 <HeroUiProvider>
                     <HeaderMenu />
-                    <div className='max-w-[1200px] mx-auto bg-white/80 rounded-2xl border-1 border-stone-100 p-6'>
+                    <div className='max-w-[1200px] mx-auto bg-white/50 rounded-2xl border-1 border-stone-100 p-6'>
                         {children}
                     </div>
                 </HeroUiProvider>

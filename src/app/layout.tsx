@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: 'TCC FRONT',
 };
 
-export default function LoginLayout({
+export default function Layout({
     children,
 }: Readonly<{
     children: React.ReactNode;
@@ -21,7 +21,7 @@ export default function LoginLayout({
             >
                 <HeroUiProvider>
                     <HeaderMenu />
-                    <div className='max-w-[1200px] mx-auto bg-white/80 rounded-2xl border-1 border-stone-100 p-6'>
+                    <div className='max-w-[1200px] mx-auto bg-white/30 border border-stone-50 rounded-2xl p-6'>
                         {children}
                     </div>
                 </HeroUiProvider>

@@ -6,7 +6,10 @@ import Image from 'next/image';
 import HeaderMenu from '@/components/headerMenu';
 
 export const metadata: Metadata = {
-    title: 'TCC FRONT',
+    title: 'MEGA - Monitoramento de Tráfego (TCC)',
+    icons: {
+        icon: '/favicon.ico',
+    },
 };
 
 export default function LoginLayout({

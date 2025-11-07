@@ -17,11 +17,11 @@ export default function LoginLayout({
     return (
         <html lang="pt-BR" suppressHydrationWarning>
             <body
-                className={`antialiased ${inter.className} max-w-full h-svh bg-linear-to-br from-white to-amber-50`}
+                className={`antialiased ${inter.className} max-w-full h-svh bg-linear-to-br from-amber-50 to-amber-400`}
             >
                 <HeroUiProvider>
                     <HeaderMenu />
-                    <div className='max-w-[1200px] mx-auto bg-white/50 rounded-2xl border-1 border-stone-100 p-6'>
+                    <div className='max-w-[1200px] mx-auto bg-white/60 rounded-2xl border-1 border-stone-100 p-6'>
                         {children}
                     </div>
                 </HeroUiProvider>

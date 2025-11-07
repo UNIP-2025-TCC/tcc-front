@@ -12,10 +12,11 @@ export default function Home() {
                     Selecione uma câmera para visualizar as estatísticas
                 </p>
             </div>
-            <div className="grid grid-cols-3 gap-8">
+            <div className="grid grid-cols-4 gap-8">
                 <CameraCard cameraCode="SP125-KM093B" cameraImage="/img/rodo-1.jpg" cameraCity="Ubatuba-SP" />
                 <CameraCard cameraCode="SP008-KM095" cameraImage="/img/rodo-2.jpg" cameraCity="Bragança Paulista-SP" />
-                <CameraCard cameraCode="VIDEO-GRAVADO" cameraImage="/img/rodo-3.jpg" cameraCity="Cidade Fictícia-UF" />
+                <CameraCard cameraCode="SP055-KM092" cameraImage="/img/rodo-4.jpg" cameraCity="Caraguatatuba-SP" />
+                <CameraCard cameraCode="VIDEO-GRAVADO" cameraImage="/img/rodo-3.jpg" cameraCity="Experimental" />
             </div>
         </div>
     );

@@ -9,7 +9,7 @@ interface Stats {
     stopped_vehicles: number[];
     traffic_detected: boolean;
     fps: number;
-    uptime_minuts: number;
+    uptime_minutes: number;
 }
 
 export function useWebSocket() {

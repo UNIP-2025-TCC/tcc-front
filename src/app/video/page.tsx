@@ -36,8 +36,8 @@ export default function VideoPage() {
                 </div>
             </div>
             <div className="flex w-full gap-8">
-                <img className="rounded-2xl" id="videoStream" src="http://localhost:5000/video_feed" alt="Stream de vídeo processado" />
-                {stats && (
+                <img className={`rounded-2xl ${isConnected ? "" : "hidden"}`} id="videoStream" src="http://localhost:5000/video_feed" alt="Stream de vídeo processado" />
+                {stats ? (
                     <div className="grid grid-cols-2 gap-4 grow h-fit">
                         <StatsCard title="Travessias" icon={<CircleCheckBig size={20} className="text-amber-500" />}>
                             <p className="text-3xl font-semibold">{stats.crossing_count}</p>
@@ -71,6 +71,8 @@ export default function VideoPage() {
                             </div>
                         </StatsCard>
                     </div>
+                ) : (
+                    <p className="text-stone-500">Sem dados para a câmera selecionada</p>
                 )}
             </div>
         </div >

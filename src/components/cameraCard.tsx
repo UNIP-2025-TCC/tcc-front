@@ -2,7 +2,6 @@
 
 import { CircleCheck } from "lucide-react";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
 import { toast, Toaster } from "react-hot-toast";
 
 interface CardProps {
@@ -12,7 +11,6 @@ interface CardProps {
 }
 
 export default function CameraCard({ cameraCode, cameraImage, cameraCity }: CardProps) {
-    const router = useRouter();
 
     async function handleClick() {
         const toastId = toast.loading("Iniciando câmera...");
@@ -31,7 +29,7 @@ export default function CameraCard({ cameraCode, cameraImage, cameraCity }: Card
             }
 
             toast.success("Câmera iniciada!", { id: toastId });
-            router.push(`/video?code=${cameraCode}&city=${cameraCity}`);
+            window.location.href = `/video?code=${cameraCode}&city=${cameraCity}`;
         } catch (error) {
             toast.error("Erro ao conectar", { id: toastId });
             return;

@@ -30,7 +30,7 @@ export default function CameraCard({ cameraCode, cameraImage, cameraCity }: Card
 
             toast.success("Câmera iniciada!", { id: toastId });
             window.location.href = `/video?code=${cameraCode}&city=${cameraCity}`;
-        } catch (error) {
+        } catch {
             toast.error("Erro ao conectar", { id: toastId });
             return;
         }

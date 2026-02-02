@@ -315,10 +315,10 @@ npm run lint
 
 | Código | Localização | Status |
 |--------|-------------|--------|
-| SP125-KM093B | Ubatuba-SP | 🟢 Online |
-| SP008-KM095 | Bragança Paulista-SP | 🟢 Online |
-| SP055-KM092 | Caraguatatuba-SP | 🟢 Online |
-| VIDEO-GRAVADO | Experimental | 🟢 Online |
+| SP125-KM093B | Ubatuba-SP
+| SP008-KM095 | Bragança Paulista-SP
+| SP055-KM092 | Caraguatatuba-SP
+| VIDEO-GRAVADO | Experimental
 
 ---
 
@@ -369,35 +369,6 @@ Este é um projeto acadêmico (TCC), mas sugestões e melhorias são bem-vindas!
 ## 📝 Licença
 
 Este projeto foi desenvolvido como Trabalho de Conclusão de Curso para fins acadêmicos.
-
----
-
-**Trabalho de Conclusão de Curso**  
-Universidade Paulista - UNIP  
-Campus: Ribeirão Preto  
-Curso: Bacharelado em Ciência da Computação  
-Ano: 2024/2025
-
----
-
-## 📞 Contato
-
-Para mais informações sobre o projeto ou colaborações:
-
-- 📧 Email: [seu-email@exemplo.com]
-- 🔗 LinkedIn: [seu-linkedin]
-- 🐙 GitHub: [seu-github]
-
----
-
-## 🙏 Agradecimentos
-
-- Universidade Paulista - UNIP Ribeirão Preto
-- Professores orientadores
-- Colegas de curso que contribuíram com feedback
-- Comunidade open-source pelas ferramentas utilizadas
-
----
 
 <div align="center">
   
